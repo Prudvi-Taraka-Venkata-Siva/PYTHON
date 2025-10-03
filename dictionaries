@@ -1,8 +1,8 @@
-# list={1,2,3,4,5,6,6,7,7}
-# k=set(list)
-# print(k)
-# k.add(12)
-# print(k)
+list={1,2,3,4,5,6,6,7,7}
+k=set(list)
+print(k)
+k.add(12)
+print(k)
 dict={
     "model":"1st model",
     "year":2006
@@ -11,3 +11,11 @@ print(type(dict))
 print(dict['year'])
 dict['city']="hyderabad"
 print(dict)
+def mom(a,b):
+    print(a+b)
+a=10
+b=20
+mom(a,b)
+mom(5,6)
+mom(7,9)
+mom(11,22)
